@@ -1,0 +1,31 @@
+{
+  "name": "db-editor",
+  "version": "0.1.0",
+  "description": "Database viewer / editor for various data types",
+  "main": "dist/db-editor.js",
+  "types": "dist/db-editor.d.ts",
+  "author": {
+    "name": "Pacharapol Withayasakpunt",
+    "url": "http://patarapolw.github.io",
+    "email": "patarapolw@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "flatpickr": "^4.5.7",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "simplemde": "^1.11.2",
+    "tingle.js": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.29",
+    "@types/simplemde": "^1.11.7",
+    "@types/tingle.js": "^0.13.0",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build-css": "node-sass src/ -o dist/"
+  }
+}
