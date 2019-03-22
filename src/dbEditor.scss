@@ -60,6 +60,11 @@ pre {
     height: 80% !important;
 }
 
+.db-editor-md-editor {
+    height: 500px;
+    overflow: scroll;
+}
+
 form .CodeMirror {
     min-height: 100px !important;
     height: 100px !important;
